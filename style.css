@@ -1,0 +1,222 @@
+    html, body{
+        margin: 0;
+        padding: 0;
+        background-color:  black;
+    }
+    .navigacija{
+        background-color:  black;
+        color: #A8BBB0;
+        height: 100px;
+    }
+
+    .lista{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        list-style-type: none;
+
+    }
+    .lista li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: #A8BBB0 ;
+        border: #A8BBB0 1px solid;
+        border-radius: 50px;
+        margin: 0;
+        padding: 0;
+        width: 33%;
+        height: 85%;
+    }
+    .lista li:hover{
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+    .lista li a{
+        color:#A8BBB0;
+        text-decoration: none;
+    }
+    .opcije{
+        display: none;
+        flex-direction: column;
+        width: 33%;
+        align-items: center;
+        list-style-type: none;
+
+        
+
+    }
+
+    .opcije li{
+        text-align: center;
+        width: 50%;
+        margin-bottom: 5px;
+
+
+    }
+    .opcije li:hover{
+        background-color:whitesmoke ;
+        cursor: pointer;
+    }
+    .opcije li a{
+        color:#A8BBB0;
+        text-decoration: none;
+    }
+
+    .pocetna{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:#A8BBB0 ;
+    }
+    .naslov{
+        margin-top: 30px;
+        font-size: xx-large;
+        text-shadow: 1px 1px whitesmoke;
+        text-align: center;
+    }
+    .slika{
+        margin-top: 40px;
+    }
+    .pravila{
+        margin-left: 15%;
+        margin-right: 15%;
+        display: flex;
+        font-size: larger;
+        margin-top: 50px;
+        justify-content: center;
+        color:#A8BBB0 ;
+    }
+
+    .zaglavlje {
+        border-top: #A8BBB0 1px solid;
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        color: #A8BBB0;
+        width: 100%;
+        
+    }
+
+    .zaglavlje a{
+        color: #A8BBB0;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    .fa-facebook{
+        font-size: 35px;
+        color: #1877F2;
+    }
+    .fa-linkedin{
+        font-size: 35px;
+        color: #0077B5;
+    }
+    .fa-instagram{
+        font-size: 35px;
+        color: #E4405F;
+    }
+    /* O meni */
+    .main_o_meni{
+        display: flex;
+        align-items:start;
+        margin: 0;
+        padding: 0;
+
+    }
+    .igra{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+        width: 100%;
+
+
+    }
+    .glavno{
+        height: 100vh;
+        width: 70%;
+    }
+    .Linija{
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 100vh;
+        width: 15%;
+    }
+
+    #igra{
+        height: 100%;
+        width: 100%;
+    }
+
+    .ime{
+        width: 100%;
+        height:auto;
+        background-color: red;
+        color: white;
+        text-align: center;
+        font-size: larger;
+    }
+
+    #kanvas{
+        border: 1px solid black;
+    }
+
+
+    #kanvas:hover{
+        cursor: pointer;
+    }
+    .trenutniIgrac{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: blue;
+        font-size: x-large;
+        text-align: center;
+        width:100%;
+        height: 50px;
+    }
+    .pobjednik{
+        position: absolute;
+        top: 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background-color: blue;
+        font-size: x-large;
+        text-align: center;
+        width:100%;
+        height: 70px;
+    }
+
+    .opcija{
+        position: absolute;
+        top: 70px;
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+        background-color: blue;
+        font-size: x-large;
+        text-align: center;
+        width:100%;
+        height: 50px;
+    }
+
+    .opcija button{
+        width: 20%;
+        cursor: pointer;
+        background-color: white;
+        height: 40px ;
+        font-size: larger;
+    }
+
+    button a{
+        color:black;
+        text-decoration: none;
+    }

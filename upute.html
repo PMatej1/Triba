@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> Upute </title>
+</head>
+<body>
+	<nav class="navigacija">
+		<ul class="lista">
+			<li onclick="let opcije=document.querySelector('.opcije');
+		if (opcije.style.display==='none') opcije.style.display='flex';
+		else opcije.style.display='none';"> Nova igra <i class="fa fa-caret-down" aria-hidden="true"></i> </li>
+			<li> <a href="upute.html">Upute</a> </li>
+			<li> <a href="o_projektu.html">O projektu </a>  </li>
+		</ul>
+
+		<ul class="opcije">
+					<li> <a href="igra1.html"> 6x8 </a></li>
+					<li> <a href="igra2.html"> 8x6</a> </li>
+					<li> <a href="igra3.html"> 8x8 </a></li>
+					<li> <a href="igra4.html"> Trokutasti oblik</a> </li>
+				</ul>
+	</nav>
+	<p class="naslov"> Pravila </p>
+	<div class="pravila">
+		<p>Igra se odvija na mreži dimenzija mxn, gdje su m i n parni prirodni brojevi. U ovoj igri sudjeluju dva igrača, koji igraju naizmjenično. Svaki igrač u svom potezu bira trougao tako da odabere tri točke iz mreže. Važno je napomenuti da te tri točke ne smiju ležati na istoj pravoj. Pravilo vezano uz odabir točaka za trougao ima svoju bitnu svrhu. Ono osigurava da trouglovi budu dobro definirani i ne sijeku se. Dakle, igrači ne mogu stvoriti trouglove s vrhovima koji leže na istoj pravoj, čime se sprječava degeneracija trouglova u linije.<br>
+
+Dodatno, nije dopušteno da dva trougla imaju zajednički vrh. Ovo pravilo osigurava jasnu razgraničenost između trouglova, sprječavajući preklapanje i omogućavajući jednostavno praćenje poteza igrača.
+Trouglovi se mogu nalaziti jedan unutar drugog, što dodaje složenost strategiji igre. Ovo omogućuje igračima da kreativno koriste veće trouglove kako bi obuhvatili manje trouglove i ograničili opcije protivnika.<br>
+
+Igra završava kada jedan od igrača ostane bez mogućnosti za odabir trougla. Drugim riječima, kada oba igrača iskoriste sve svoje poteze, igra završava. Tada se igrač koji nije u mogućnosti odabrati trougao smatra gubitnikom. Bočne linije na slici koja predstavlja mrežu označavaju boju igrača koji je trenutno na potezu. Ova vizualna oznaka pomaže igračima pratiti redoslijed poteza i lakše usmjerava pažnju na trenutnog igrača.</p>
+	</div>
+
+
+
+	<div style="height: 200px;"></div>
+	
+<footer class="zaglavlje">
+        <p> Matej Panić &copy 2023</p>
+        <div>
+              <p> Posjetite me na drustvenim mrezama </p>
+              <a href="https://www.facebook.com/matej.panic16" target="blank"> <i class="fa fa-facebook" ></i>
+            </a>
+            <a href="https://www.instagram.com/matej.panic/?hl=en" target="blank"> <i class="fa fa-instagram"> </i> </a>
+            <a href="https://www.linkedin.com/in/matej-pani%C4%87-9b3630266/?originalSubdomain=ba" target="blank"> 
+            <i class="fa fa-linkedin"></i> </a>
+
+        </div>
+        <a href="#top"> Vrati se na pocetak</a>
+      
+    </footer>
+</body>
+</html>
