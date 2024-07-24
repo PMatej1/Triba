@@ -24,7 +24,7 @@ Ovaj projekt predstavlja igru koja se odvija na mreži dimenzija mxn, gdje su m 
 
 1. Klonirajte ovaj repozitorijum:
    ```bash
-   git clone https://github.com/yourusername/TriangleGame.git
+   git clone https://github.com/PMatej1/Triba.git
    cd TriangleGame
 2. Otvorite index.html fajl u vašem web pretraživaču da biste pokrenuli igru.
 
